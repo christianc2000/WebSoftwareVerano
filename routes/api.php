@@ -14,6 +14,7 @@ use App\Http\Controllers\Api\LocalizacionController;
 use App\Http\Controllers\Api\PlanController;
 use App\Http\Controllers\Api\PlanTutorController;
 use App\Http\Controllers\Api\TutorController;
+use App\Http\Controllers\Api\WebController;
 use App\Models\Token;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
@@ -53,6 +54,9 @@ Route::post('/contenido', [ContenidoController::class, 'store']);
 // Route::post('/register-notification', [ExpoTokenController::class, 'registrarExpoToken']); //Registrar el expoToken al usuario
 Route::get('/eliminar-token', [ExpoTokenController::class, 'eliminarExpoToken']);
 Route::get('/verifica_token/{id}', [HijoController::class, 'verificaToken']);
+
+// Lista de sitios web
+Route::resource('/web', WebController::class);
 //Eliminar el expotoken al usuario
 Route::group(['middleware' => ["auth:sanctum"]], function () {
     Route::get('/logout', [AuthController::class, 'logout']);
