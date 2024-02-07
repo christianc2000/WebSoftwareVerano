@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\PushNotificationPruebaController;
+use App\Http\Controllers\WebController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -38,6 +39,9 @@ Route::middleware(['auth'])->group(//,'planVerification'])->group(
         Route::get('/hijoGaleria/{id}', [App\Http\Controllers\UserController::class,'hijoGaleria'])->name('hijoGaleria');
         Route::get('/hijoContenido/{id}', [App\Http\Controllers\UserController::class,'hijoContenido'])->name('hijoContenido');
         Route::get('/hijoUbicacion/{id}', [App\Http\Controllers\UserController::class,'hijoUbicacion'])->name('hijoUbicacion');
+
+
+        Route::resource('/webSite',WebController::class)->names('web');
 
         Route::post('/crear_hijo', [App\Http\Controllers\UserController::class, 'crear_hijo'])->name('crear_hijo');
         Route::get('markAsRead', function () {
