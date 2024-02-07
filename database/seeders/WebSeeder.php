@@ -16,22 +16,19 @@ class WebSeeder extends Seeder
     {
         $webs = [
             [
-                "nombre" => "www.xnxx.com"
+                "nombre" => "xnxx"
             ],
             [
-                "nombre" => "www.xvideos.com"
+                "nombre" => "xvideos"
             ],
             [
-                "nombre" => "www.pornhub.com"
+                "nombre" => "pornhub"
             ],
             [
-                "nombre" => "www.xnxx.com"
+                "nombre" => "facebook"
             ],
             [
-                "nombre" => "www.xhamster.com"
-            ],
-            [
-                "nombre" => "www.xnxx.com"
+                "nombre" => "xhamster"
             ]
         ];
         foreach ($webs as $web) {
