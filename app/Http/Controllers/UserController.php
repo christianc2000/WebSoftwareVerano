@@ -78,7 +78,7 @@ class UserController extends Controller
     {
 
         $usuario = Auth::user();
-        return $usuario;
+        
         $hijo = new Hijo;
         $hijo->name = $request->nombre;
         $hijo->id_tutor = $usuario->id;

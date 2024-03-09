@@ -44,19 +44,18 @@ class HijoController extends Controller
                     'message' => 'success',
                     'data' => true
                 ]);
-            }else{
+            } else {
                 return response()->json([
                     'message' => 'failed token no encontrado',
                     'data' => false
                 ]);
             }
-        }else{
+        } else {
             return response()->json([
                 'message' => 'failed usuario no existe',
                 'data' => false
             ]);
         }
-      
     }
     public function showHijo($id)
     {
@@ -338,13 +337,11 @@ class HijoController extends Controller
 
             ]);
             $resultLabels = $result->get('ModerationLabels');
-
-
-
             if ($resultLabels !== []) {
 
                 try {
                     $nombre = $request->file('fotos')->getClientOriginalName();
+
                     // guardando foto inadecuada del infante en BD y S3
                     $folder = "infante";
 
@@ -358,7 +355,7 @@ class HijoController extends Controller
 
                         /* recibe la info de la imagen y lo envia como notificacion */
                         $hijo = Hijo::find($request->id_hijo);
-
+                        // return $request->id_hijo;
                         $user = User::find($hijo->tutor->user->id);
 
                         $guardarFoto = new Contenido;
