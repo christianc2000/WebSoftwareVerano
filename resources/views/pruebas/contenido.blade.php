@@ -10,10 +10,10 @@
         </div>
         <span class="menu-arrow d-lg-none"></span>
         <!-- <div class="menu-item">
-                            <a class="menu-link active py-3" href="{{ route('hijoLlamadas', $info->id) }}">
-                                <span class="text-muted">Llamada</span>
-                            </a>
-                        </div>-->
+                                <a class="menu-link active py-3" href="{{ route('hijoLlamadas', $info->id) }}">
+                                    <span class="text-muted">Llamada</span>
+                                </a>
+                            </div>-->
         <span class="menu-arrow d-lg-none"></span>
         <div class="menu-item">
             <a class="menu-link active py-3" href="{{ route('hijoContenido', $info->id) }}">
@@ -60,6 +60,7 @@
                     <tbody>
                         @php
                             $nameData = [
+                                'Pills' => 'Drogas',
                                 'Blood & Gore' => 'Sangre y sangre',
                                 'Graphic Violence' => 'Violencia Gráfica',
                                 'Non-Explicit Nudity' => 'desnudez no explícita',
@@ -117,6 +118,7 @@
                                 'Alcohol' => 'Alcohol',
                                 'Gambling' => 'Juego',
                                 'Hate Symbols' => 'Símbolos de odio',
+                                'Products'=>'Producto',
                             ];
                             $a = 0;
                         @endphp
