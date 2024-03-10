@@ -10,10 +10,10 @@
         </div>
         <span class="menu-arrow d-lg-none"></span>
         <!-- <div class="menu-item">
-                <a class="menu-link active py-3" href="{{ route('hijoLlamadas', $info->id) }}">
-                    <span class="text-muted">Llamada</span>
-                </a>
-            </div>-->
+                    <a class="menu-link active py-3" href="{{ route('hijoLlamadas', $info->id) }}">
+                        <span class="text-muted">Llamada</span>
+                    </a>
+                </div>-->
         <span class="menu-arrow d-lg-none"></span>
         <div class="menu-item">
             <a class="menu-link active py-3" href="{{ route('hijoContenido', $info->id) }}">
@@ -60,6 +60,7 @@
                     <tbody>
                         @php
                             $nameData = [
+                                'Blood & Gore' => 'Sangre y sangre',
                                 'Non-Explicit Nudity' => 'desnudez no explícita',
                                 'Partially Exposed Female Breast' => 'Pecho femenino parcialmente expuesto',
                                 'Nudity' => 'Desnudez',
@@ -99,6 +100,7 @@
                                 'Extremist' => 'Extremista',
                             ];
                             $parentNameData = [
+                                'Graphic Violence' => 'Violencia Gráfica',
                                 'Non-Explicit Nudity of Intimate parts and Kissing' =>'Desnudez no explícita de partes íntimas y besos',
                                 'Non-Explicit Nudity' => 'desnudez no explícita',
                                 'Explicit Nudity' => 'Desnudez explícita',
