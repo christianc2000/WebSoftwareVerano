@@ -59,6 +59,7 @@
                 <tbody>
                       @php
                       $nameData=array(
+                        'Non-Explicit Nudity of Intimate parts and Kissing'=>'Desnudez no explícita de partes íntimas y besos',
                         'Nudity'=>'Desnudez',
                         'Graphic Male Nudity'=>'Desnudez Masculina Gráfica',
                         'Graphic Female Nudity'=>'Desnudez femenina gráfica',

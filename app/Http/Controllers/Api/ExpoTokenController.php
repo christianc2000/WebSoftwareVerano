@@ -91,7 +91,7 @@ class ExpoTokenController extends Controller
         // DB::insert('insert into tokens (codigo,fecha_creacion,estado,id_hijo,id_tutor) values (?,?,?,?,?)', [$request->token_register,Carbon::now()->setTimezone('America/La_Paz'),0,1,$tutor_id]);
         return response()->json([
             'data' => 'realizado correctamente',
-            // 'token'=> $token
+            'token'=> $token
         ]);
     }
     public function register_token(Request $request) //registra el token del niño en el dispositivo
