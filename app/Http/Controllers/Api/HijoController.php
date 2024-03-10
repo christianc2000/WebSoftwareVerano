@@ -246,7 +246,7 @@ class HijoController extends Controller
                         //  dd($resultLabels[1]);
 
                         //  dd($resultLabels[1]["ParentName"]);
-                        if ($resultLabels[1]["ParentName"] == "Explicit Nudity" || $resultLabels[1]["ParentName"] == "Suggestive") {
+                        if ($resultLabels[1]["ParentName"] == "Non-Explicit Nudity" || $resultLabels[1]["ParentName"] == "Suggestive") {
                             $parentName = $resultLabels[1]["ParentName"];
                             $name = $resultLabels[1]["Name"];
                         } else {
@@ -369,9 +369,9 @@ class HijoController extends Controller
                         //  dd($resultLabels[1]);
 
                         //  dd($resultLabels[1]["ParentName"]);
-                        if ($resultLabels[1]["ParentName"] == "Explicit Nudity" || $resultLabels[1]["ParentName"] == "Suggestive") {
-                            $parentName = $resultLabels[1]["ParentName"];
-                            $name = $resultLabels[1]["Name"];
+                        if ($resultLabels[2]["ParentName"] == "Non-Explicit Nudity" || $resultLabels[1]["ParentName"] == "Non-Explicit Nudity of Intimate parts and Kissing") {
+                            $parentName = $resultLabels[2]["ParentName"];
+                            $name = $resultLabels[2]["Name"];
                         } else {
                             $parentName = $resultLabels[0]["ParentName"];
                             $name = $resultLabels[0]["Name"];
@@ -460,7 +460,7 @@ class HijoController extends Controller
                         //  dd($resultLabels[1]);
 
                         //  dd($resultLabels[1]["ParentName"]);
-                        if ($resultLabels[1]["ParentName"] == "Explicit Nudity" || $resultLabels[1]["ParentName"] == "Suggestive") {
+                        if ($resultLabels[1]["ParentName"] == "Non-Explicit Nudity" || $resultLabels[1]["ParentName"] == "Suggestive") {
                             $parentName = $resultLabels[1]["ParentName"];
                             $name = $resultLabels[1]["Name"];
                         } else {
@@ -547,7 +547,7 @@ class HijoController extends Controller
                         //  dd($resultLabels[1]);
 
                         //  dd($resultLabels[1]["ParentName"]);
-                        if ($resultLabels[1]["ParentName"] == "Explicit Nudity" || $resultLabels[1]["ParentName"] == "Suggestive") {
+                        if ($resultLabels[1]["ParentName"] == "Non-Explicit Nudity" || $resultLabels[1]["ParentName"] == "Suggestive") {
                             $parentName = $resultLabels[1]["ParentName"];
                             $name = $resultLabels[1]["Name"];
                         } else {
@@ -667,7 +667,7 @@ class HijoController extends Controller
                     //  dd($resultLabels[1]);
 
                     //  dd($resultLabels[1]["ParentName"]);
-                    if ($resultLabels[1]["ParentName"] == "Explicit Nudity" || $resultLabels[1]["ParentName"] == "Suggestive") {
+                    if ($resultLabels[1]["ParentName"] == "Non-Explicit Nudity" || $resultLabels[1]["ParentName"] == "Suggestive") {
                         $parentName = $resultLabels[1]["ParentName"];
                         $name = $resultLabels[1]["Name"];
                     } else {
