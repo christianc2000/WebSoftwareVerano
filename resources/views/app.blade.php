@@ -24,7 +24,7 @@
     <link href="../../../demo1/dist/assets/plugins/global/plugins.bundle.css" rel="stylesheet" type="text/css" />
     <link href="../../../demo1/dist/assets/css/style.bundle.css" rel="stylesheet" type="text/css" />
     <!--end::Global Stylesheets Bundle-->
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 </head>
 <!--end::Head-->
 <!--begin::Body-->
@@ -55,7 +55,7 @@
                         data-kt-toggle-name="aside-minimize">
                         <!--begin::Svg Icon | path: icons/duotune/arrows/arr079.svg-->
                         <span class="svg-icon svg-icon-1 rotate-180">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                            <svg xmlns="https://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                 fill="none">
                                 <path opacity="0.5"
                                     d="M14.2657 11.4343L18.45 7.25C18.8642 6.83579 18.8642 6.16421 18.45 5.75C18.0358 5.33579 17.3642 5.33579 16.95 5.75L11.4071 11.2929C11.0166 11.6834 11.0166 12.3166 11.4071 12.7071L16.95 18.25C17.3642 18.6642 18.0358 18.6642 18.45 18.25C18.8642 17.8358 18.8642 17.1642 18.45 16.75L14.2657 12.5657C13.9533 12.2533 13.9533 11.7467 14.2657 11.4343Z"
@@ -94,7 +94,7 @@
                                 <div class="menu-item">
                                     <a class="menu-link" href="{{ route('perfil') }}">
                                         <span class="menu-bullet">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            <svg xmlns="https://www.w3.org/2000/svg" width="16" height="16"
                                                 fill="currentColor" class="bi bi-person-square" viewBox="0 0 16 16">
                                                 <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
                                                 <path
@@ -108,7 +108,7 @@
                                 <div class="menu-item">
                                     <a class="menu-link" href="{{ route('menu') }}">
                                         <span class="menu-bullet">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            <svg xmlns="https://www.w3.org/2000/svg" width="16" height="16"
                                                 fill="currentColor" class="bi bi-house-heart" viewBox="0 0 16 16">
                                                 <path
                                                     d="M8 6.982C9.664 5.309 13.825 8.236 8 12 2.175 8.236 6.336 5.309 8 6.982Z" />
@@ -122,7 +122,7 @@
                                 <div class="menu-item">
                                     <a class="menu-link" href="{{ route('web.index') }}">
                                         <span class="menu-bullet">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            <svg xmlns="https://www.w3.org/2000/svg" width="16" height="16"
                                                 fill="currentColor" class="bi bi-bell-fill" viewBox="0 0 16 16">
                                                 <path
                                                     d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zm.995-14.901a1 1 0 1 0-1.99 0A5.002 5.002 0 0 0 3 6c0 1.098-.5 6-2 7h14c-1.5-1-2-5.902-2-7 0-2.42-1.72-4.44-4.005-4.901z" />
@@ -134,7 +134,7 @@
                                 <div class="menu-item">
                                     <a class="menu-link" href="{{ route('notification.index') }}">
                                         <span class="menu-bullet">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            <svg xmlns="https://www.w3.org/2000/svg" width="16" height="16"
                                                 fill="currentColor" class="bi bi-bell-fill" viewBox="0 0 16 16">
                                                 <path
                                                     d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zm.995-14.901a1 1 0 1 0-1.99 0A5.002 5.002 0 0 0 3 6c0 1.098-.5 6-2 7h14c-1.5-1-2-5.902-2-7 0-2.42-1.72-4.44-4.005-4.901z" />
@@ -146,7 +146,7 @@
                                 <div class="menu-item">
                                     <a class="menu-link" href="{{ route('tokens') }}">
                                         <span class="menu-bullet">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            <svg xmlns="https://www.w3.org/2000/svg" width="16" height="16"
                                                 fill="currentColor" class="bi bi-phone-fill" viewBox="0 0 16 16">
                                                 <path
                                                     d="M3 2a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V2zm6 11a1 1 0 1 0-2 0 1 1 0 0 0 2 0z" />
@@ -212,7 +212,7 @@
                                     id="kt_aside_mobile_toggle">
                                     <!--begin::Svg Icon | path: icons/duotune/abstract/abs015.svg-->
                                     <span class="svg-icon svg-icon-1">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                        <svg xmlns="https://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24" fill="none">
                                             <path
                                                 d="M21 7H3C2.4 7 2 6.6 2 6V4C2 3.4 2.4 3 3 3H21C21.6 3 22 3.4 22 4V6C22 6.6 21.6 7 21 7Z"
@@ -248,7 +248,7 @@
                                     id="navbarDropdownMenuLink" role="button" data-mdb-toggle="dropdown"
                                     aria-expanded="false">
                                     <span class="menu-bullet">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                        <svg xmlns="https://www.w3.org/2000/svg" width="16" height="16"
                                             fill="currentColor" class="bi bi-bell-fill" viewBox="0 0 16 16">
                                             <path
                                                 d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zm.995-14.901a1 1 0 1 0-1.99 0A5.002 5.002 0 0 0 3 6c0 1.098-.5 6-2 7h14c-1.5-1-2-5.902-2-7 0-2.42-1.72-4.44-4.005-4.901z" />
